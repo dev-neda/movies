@@ -1,0 +1,15 @@
+{
+    "name": "movies-backend",
+    "version": "0.1",
+    "description": "A sample project to learn Node.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "author": "Kenny Pineda",
+    "license": "GPL-2.0-only",
+
+    "dependencies": {
+        "express": "^4.21.1",
+        "cors": "^2.8.5"
+    }
+}

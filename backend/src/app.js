@@ -31,6 +31,10 @@ app.get('/movies/:title', (req, res) => {
     // Buscar la pelicula y devolverla en formato JSON
 });
 
+app.patch('/movies/:title', (req, res) => {
+
+});
+
 app.listen(8080, () => {
     console.log('El backend ha iniciado en el puerto 8080');
 });

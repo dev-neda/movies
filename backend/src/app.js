@@ -43,7 +43,7 @@ app.put('/movies/:title', async (req, res) => {
         year: req.body.year
     });
 
-    res.status(201).json({});
+    res.status(204).json({});
 });
 
 app.delete('/movies/:title', async (req, res) => {

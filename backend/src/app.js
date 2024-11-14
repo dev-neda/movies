@@ -39,7 +39,7 @@ app.put('/movies/:title', async (req, res) => {
         title: req.params.title
     }).update({
         title: req.body.title,
-        description: req.body.population,
+        description: req.body.description,
         year: req.body.year
     });
 
